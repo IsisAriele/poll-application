@@ -4,6 +4,3 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse("Hello, world. You're at the polls index.")
-
-def pets(request):
-    return HttpResponse("Cats and dogs")
